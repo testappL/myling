@@ -13,4 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require libs/bootstrap.min
+//= require libs/excanvas.compiled
+//= require libs/jquery-1.10.2.min
+//= require mvpready-landing
+//= require mvpready-core
+//= require plugins/carouFredSel/jquery.carouFredSel-6.2.1-packed
+//= require plugins/timeago/jquery.timeago
+//= require plugins/tweetable/tweetable.jquery.min

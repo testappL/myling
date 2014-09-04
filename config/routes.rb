@@ -1,4 +1,17 @@
+# -*- encoding : utf-8 -*-
 Rails.application.routes.draw do
+
+  get '/' => 'company#index'
+
+  get '/index' =>'company#index'
+
+  get '/contact' => 'company#contact'
+
+  get '/faq' => 'company#faq'
+
+  get '/features' => 'company#features'
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
