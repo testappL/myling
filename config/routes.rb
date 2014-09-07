@@ -13,6 +13,17 @@ Rails.application.routes.draw do
 
   get '/features' => 'company#features'
 
+  get '/services' => 'company#services'
+
+  get '/about' => 'company#about'
+
+  get '/services/translations' => 'company#translations'
+
+  get '/services/interpretation' => 'company#interpretation'
+
+  get '/services/linguistic' => 'company#linguistic'
+
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

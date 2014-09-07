@@ -13,7 +13,6 @@
  *= require_tree .
  *= require_self
  *= require animate
- *= require font-awesome.min
 
  *= require  mvpready-flat
  *= require mvpready-landing-belize
@@ -23,5 +22,5 @@
  *= require mvpready-landing-slate
  *= require mvpready-landing-square
  *= require mvpready-landing
-
+ *= require font-awesome
  */

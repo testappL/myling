@@ -12,4 +12,13 @@ class CompanyController < ApplicationController
 
   def features
   end
+
+  def translations
+  end
+
+  def interpretation
+  end
+
+  def linguistic
+  end
 end
